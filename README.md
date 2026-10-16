@@ -8,10 +8,10 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. ​Augmented Matrix Setup: Initializes an n \times (n+1) matrix a to store coefficients alongside the constant vector.  
+2. Forward Elimination: Converts the coefficient matrix into upper triangular form by subtracting row ratios (ratio = a[j][i] / a[i][i]) from lower rows.  
+3. Back Substitution: Solves for unknown variables x sequentially in reverse order, starting from x_{n-1} down to x_0.  
+4. ​Output Display: Prints each computed variable X_i rounded to 2 decimal places.
 
 ## Program
 ### '''Program to solve a matrix using Gaussian elimination without partial pivoting.
