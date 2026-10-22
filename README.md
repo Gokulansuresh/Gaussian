@@ -17,8 +17,7 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 ### '''Program to solve a matrix using Gaussian elimination without partial pivoting.
 ### Developed by:GOKULAN.S.S 
 ### RegisterNumber: 26018286
-### '''
-### import os
+###   import os
 ### os.environ["OPENBLAS_NUM_THREADS"]="1"
 ### import numpy as np
 ### import sys
@@ -43,7 +42,8 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 ###        x[i] = x[i]-a[i][j] * x[j]
 ###    x[i]= x[i]/a[i][i]
 ### for i in range(n):
-###     print("X%d = %0.2f"%(i,x[i]),end=' ')
+###     print("X%d = %0.2f"%(i,x[i]),end=' ') 
+'''
 
 ## Output:
 ![gaussian elimination]()
