@@ -14,7 +14,7 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 4. ​Output Display: Prints each computed variable X_i rounded to 2 decimal places.
 
 ## Program
-### '''Program to solve a matrix using Gaussian elimination without partial pivoting.
+### ```Program to solve a matrix using Gaussian elimination without partial pivoting.
 ### Developed by:GOKULAN.S.S 
 ### RegisterNumber: 26018286
 ###   import os
@@ -42,8 +42,7 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 ###        x[i] = x[i]-a[i][j] * x[j]
 ###    x[i]= x[i]/a[i][i]
 ### for i in range(n):
-###     print("X%d = %0.2f"%(i,x[i]),end=' ') 
-'''
+###     print("X%d = %0.2f"%(i,x[i]),end=' ') ```
 
 ## Output:
 ![gaussian elimination]()
